@@ -1,0 +1,75 @@
+body{
+    background-color: aqua;
+   margin: 0%;
+}
+
+#body-header{
+    margin: 0%;
+    padding-top: 0%;
+    height: 100%;
+    width: 100%;
+    box-sizing: content-box;
+    height: 65vh;
+    background-image: url(images/background3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: fixed;
+}
+#navbar{
+    margin-top: 0;
+    padding-top: 15px;
+}
+
+ #navbar>li{
+    margin: 13px;
+    padding-top: 32px;
+    color: white;
+    list-style: none;
+    display: inline-block;
+    padding-right : 30px;
+    padding-left : 30px;
+    text-align: center;
+    
+ }
+
+ #navbar>li>a{
+     font-size: x-large;
+     color: white;
+     text-decoration: none;
+ }
+
+
+ #navbar li a:hover{
+     color: cyan;
+    text-decoration: solid;
+    border-bottom: 1px solid white;
+ }
+
+
+#name{
+    text-align: center;
+    margin-top: 1em;
+    color: aliceblue;
+    font-size: 4em;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+/* #horizon1{
+    margin-left: 5%;
+    margin-right: 5%;
+} */
+#myimg{
+    margin-left: 39%;
+    margin-top: 20%;
+    height: 15rem;
+    width:15rem;
+    border-radius: 20%;
+    position: absolute;
+}
+
+#mineimg{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
